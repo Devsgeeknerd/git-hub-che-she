@@ -26,13 +26,43 @@ git config --global user.email "hello-world@exemplo.com"
 Enviar o arquivo ao repositório remoto:
 
 ```bash
-git remote add origin git@github.com:"usuário"/"repositório.git"
+git remote add origin git@github.com:"nomeDoUsuário"/"nomeDoRepositório.git"
 ```
 
 Verifica os arquivos enviados:
 
 ```bash
 git remote -v
+```
+
+Sincroniza o repositório local com o remoto:
+
+```bash
+git remote add origin https://github.com/nomeDoRepositorio.git
+```
+
+Adiciona todos os arquivos ou apenas repositórios modificados:
+
+```bash
+git add .
+```
+
+Adiciona somente o arquivo especificado:
+
+```bash
+git add index.html
+```
+
+Adiciona somente o diretório especificado:
+
+```bash
+git add assets
+```
+
+Adiciona um arquivo que esta no ***.gitignore***:
+
+```bash
+git add -f node_modules
 ```
 
 <!-- Informações -->
