@@ -5,8 +5,14 @@
 
 Verificar a versão instalada:
 
-```git
+```bash
 git --version
+```
+
+Configura o nome do usuário:
+
+```bash
+git config --global user.name "Vanderley"
 ```
 
 <!-- Informações -->
