@@ -15,6 +15,26 @@ Configura o nome do usuário:
 git config --global user.name "Vanderley"
 ```
 
+Configura o e-mail do usuário:
+
+```bash
+git config --global user.email "hello-world@exemplo.com"
+```
+
+> Colocar o mesmo *e-mail* usado para criar a conta no **GitHub**.
+
+Enviar o arquivo ao repositório remoto:
+
+```bash
+git remote add origin git@github.com:"usuário"/"repositório.git"
+```
+
+Verifica os arquivos enviados:
+
+```bash
+git remote -v
+```
+
 <!-- Informações -->
 ## &#8505; Informações
 
