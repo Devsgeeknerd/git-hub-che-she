@@ -1,3 +1,14 @@
+<!-- Título -->
+# Git & GitHub
+
+***Comandos:***
+
+Verificar a versão instalada:
+
+```git
+git --version
+```
+
 <!-- Informações -->
 ## &#8505; Informações
 
