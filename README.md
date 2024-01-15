@@ -21,7 +21,7 @@ Configura o e-mail do usuário:
 git config --global user.email "hello-world@exemplo.com"
 ```
 
-[!IMPORTANT]\
+> [!IMPORTANT]\
 > Colocar o mesmo *e-mail* usado para criar a conta no **GitHub**.
 
 Enviar o arquivo ao repositório remoto:
